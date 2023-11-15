@@ -1,0 +1,22 @@
+.mouse:hover{
+    background-color: var(--shade-2);
+  }
+
+  .mouse2:hover{
+    border: solid 0.5px var(--primary);
+  }
+
+  .link:hover{
+    text-decoration: underline;
+  }
+
+  .crescer:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+
+  .crescer2:hover{
+    transform: scale(1.1);
+    font-weight: 500;
+    transition: transform 0.2s ease;
+  }

@@ -1,0 +1,294 @@
+@media only screen and (max-width: 1290px){
+    nav ul{
+        display: none;
+    }
+}
+
+/* Dispositivos extragrandes (laptops e desktops grandes, 1200px e superiores) */
+@media only screen and (max-width: 1250px) {
+      .gray p{
+        margin-bottom: 20px;
+      }
+
+      .btn{
+        margin-right: 0px;
+      }
+
+      .registrar{
+        margin-top: 10px;
+      }
+
+      .unlock p{
+        margin-bottom: 20px;
+      }
+
+      .customer ul{
+        gap: 10px;
+      }
+
+      .caring{
+        padding: 0px 144px;
+      }
+
+      .caring p{
+        margin-bottom: 60px;
+      }
+
+      footer{
+        align-items: start;
+      }
+
+      .ft-list{
+        margin-right: 20px;
+      }
+
+    }
+
+
+/* Desktops e Laptops */
+@media only screen and (max-width: 1025px) { 
+    nav{
+        padding: 0 60px;
+    }
+
+    .parceiros{
+        padding: 40px 60px;
+    }
+
+    .comunity{
+        padding: 0 60px;
+    }
+
+    .customer{
+        padding: 32px 60px;
+    }
+
+    .achievements{
+        padding: 50px 60px;
+    }
+
+    .unlock{
+        padding: 20px 60px;
+    }
+    
+    .gray{
+        gap: 0px;
+        padding: 60px 60px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gray p{
+        text-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    .conteudo{
+        text-align: center;
+    }
+
+    .gray h1{
+        margin: 0;
+    }
+
+    .gray img{
+        display: none;
+    }
+
+    footer{
+        padding: 32px 80px;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+    }
+
+}
+
+@media only screen and (max-width: 860px) {
+
+    .ot-cl h2{
+        margin-top: 20px;
+    }
+
+    .ot-cl ul{  
+        padding: 0;
+    }
+
+    .unlock img{
+        display: none;
+    }
+
+    .customer{
+        align-items:  center;
+    }
+
+    .customer-figure img{
+        display: none;
+    }
+
+    .customer-conteudo{
+        min-width: 100%;
+    }
+
+    .caring{
+        padding: 0 60px;
+    }
+
+    footer{
+        padding: 32px 20px;
+        flex-direction: column;
+    }
+
+    .ft-list{
+        margin: 0;
+    }
+
+    .ft-list2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .ft-list2 .list-f{
+        margin: 0;
+    }
+}
+
+
+/* Tablets e Smartphones (horizontal) */
+@media only screen and (max-width: 500px) { 
+    h1{
+        font-size: 3rem;
+        line-height: 3.75rem;
+    }
+    
+    h2{
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+    
+    h3{
+        font-size: 1.25rem;
+        line-height: 1.75rem
+    }
+    
+    h4{
+        font-size: 1.05rem;
+        line-height: 1.55rem;
+    }  
+
+    nav{
+            padding: 0 20px;
+        }  
+
+    .parceiros{
+        padding: 40px 20px;
+    }
+
+    .parceiros ul{
+        padding: 0;
+    }
+
+    .comunity{
+        padding: 0 20px;
+    }
+
+    .customer{
+        padding: 32px 20px;
+    }
+
+    .achievements{
+        padding: 50px 20px;
+    }
+
+    .unlock{
+        padding: 10px 20px;
+    }
+    
+    .gray{
+        gap: 0px;
+        padding: 20px 20px;
+    }
+
+    footer{
+        padding: 32px 20px;
+        flex-direction: column;
+    }
+
+    .ft-list{
+        margin: 0;
+    }
+
+    .ft-list2{
+        margin: 0;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .ft-list2 .list-f{
+        margin: 0;
+    }
+
+    .unlock{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+    }
+
+    .frame4{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: 10px;
+    }
+
+    .frame4 .item{
+        display: inline-block;
+    }
+
+    .frame4 .item img{
+        margin-bottom: 5px;
+    }
+
+    .unlock img{
+        display: none;
+    }
+
+    .unlock{
+        margin-bottom: 20px;
+    }
+
+    .achievements{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
+        place-items: center;
+    }
+
+    .caring{
+        padding: 0 20px;
+    }
+
+    .conteudoum p{
+        margin-bottom: 20px;
+    }
+
+    .geral{
+        width: auto;
+    }
+
+    .customer{
+        justify-content: center;
+        place-items: center;
+    }
+
+    .customer-conteudo{
+        width: 100%;
+    }
+
+    .customer-figure{
+        display: none;
+    }
+}
+
